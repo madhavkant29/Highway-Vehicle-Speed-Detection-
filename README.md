@@ -22,7 +22,6 @@ python main.py --source_video_path path/to/input/video.mp4 --target_video_path p
 
 ## Output
 - **Annotated Video**: The output video with bounding boxes, speed labels, and tracking IDs.
-- **Screenshots**: Images of vehicles exceeding 120 km/h.
 
 ## Dependencies
 - Python 3.8+
