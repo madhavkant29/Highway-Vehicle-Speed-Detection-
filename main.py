@@ -1,6 +1,9 @@
-import argparse from collections import defaultdict, deque
+import argparse 
+from collections import defaultdict, deque
 
-import cv2 import numpy as np from ultralytics import YOLO
+import cv2 
+import numpy as np 
+from ultralytics import YOLO
 
 import supervision as sv
 
