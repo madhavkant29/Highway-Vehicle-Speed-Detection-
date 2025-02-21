@@ -23,7 +23,7 @@ python main.py --source_video_path path/to/input/video.mp4 --target_video_path p
 
 ## Output
 - **Annotated Video**: The output video with bounding boxes, speed labels, and tracking IDs.
-- **Screenshots*: of vehicles who were found speeding
+- **Screenshots**: ss of vehicles who were found speeding along with their labels
 
 ## Dependencies
 - Python 3.8+
