@@ -7,6 +7,7 @@ This project uses YOLOv8 for object detection and ByteTrack for multi-object tra
 - **ByteTrack for Object Tracking**: Tracks vehicles across frames.
 - **Perspective Transformation**: Converts the scene to a top-down view for accurate speed estimation.
 - **Speed Calculation**: Estimates vehicle speeds based on frame rate and distance traveled.
+- **Screenshot**: Takes a screenshot of vehicles that exceed the speed of 120kmph and saves it in the data folder, each vehicle is marked with a red annotated box and a label of its speed(eg. 122 kmph)
 
 
 ## Usage
@@ -22,6 +23,7 @@ python main.py --source_video_path path/to/input/video.mp4 --target_video_path p
 
 ## Output
 - **Annotated Video**: The output video with bounding boxes, speed labels, and tracking IDs.
+- **Screenshots*: of vehicles who were found speeding
 
 ## Dependencies
 - Python 3.8+
